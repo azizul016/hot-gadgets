@@ -19,20 +19,22 @@ p{
 }
 .card{
     border:none;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 0 0 15px lightgray;
     border-radius: 10px;
+    padding: 10px 30px;
 }
 .yellow-color{
     color: #FF9E02;
 }
 .card-footer{
     border-top: none;
+    background-color: rgba(0,0,0,.0) !important
 }
 .height{
     height: 600px;
 }
 .box-shadow{
-    box-shadow: 5px 5px 10px lightgray, -5px -5px 10px lightgray;
+    box-shadow: 0 0 10px lightgray;
     padding: 50px;
     border-radius: 0 10px;
 }
@@ -45,18 +47,6 @@ p{
 .height h1{
     text-align: center;
 }
-/*
-.border-bottom-catagories{
-    border-bottom: 5px solid;
-    width: 110px;
-    border-image: linear-gradient(180deg,lightsalmon, tomato);
-    border-image-slice: 1;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 20px;
-}*/
-
-
 .carousel-indicators li{
     width: 10px;
     height: 8px;
@@ -67,6 +57,13 @@ p{
     background-image: linear-gradient(to right, #FFBB25, #FFD019);
     width: 30px;
     height: 8px;
-    border-radius: 8px;
+    border-radius: 50%px !important;
 }
 
+.border-bottom-catagories{
+    width: 130px;
+    height: 5px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg,#FFBB25, #FFD019);
+    border-radius: 50px;
+}
