@@ -14,9 +14,6 @@ p{
 .container{
     margin-bottom: 100px;
 }
-.margin-top-negitive{
-    margin-top: -100px;
-}
 .card{
     border:none;
     box-shadow: 0 0 15px lightgray;
@@ -30,9 +27,6 @@ p{
     border-top: none;
     background-color: rgba(0,0,0,.0) !important
 }
-.height{
-    height: 600px;
-}
 .box-shadow{
     box-shadow: 0 0 10px lightgray;
     padding: 50px;
@@ -40,12 +34,6 @@ p{
 }
 .margin-top{
     margin-top: 90px;
-}
-.center{
-    text-align: center;
-}
-.height h1{
-    text-align: center;
 }
 .carousel-indicators li{
     width: 10px;
@@ -57,7 +45,7 @@ p{
     background-image: linear-gradient(to right, #FFBB25, #FFD019);
     width: 30px;
     height: 8px;
-    border-radius: 50% !important;
+    border-radius: 40%;
 }
 
 .border-bottom-catagories{
@@ -80,9 +68,6 @@ p{
     background-image: url(images/dooted-qube.png);
     background-repeat: no-repeat;
     background-position: bottom left;
-    width: 100%;
-    background-size: 10%;
-}
-.margin-bottom-again{
-    margin-bottom: 300px;
+    overflow: hidden;
+    margin-bottom: 100px;
 }
