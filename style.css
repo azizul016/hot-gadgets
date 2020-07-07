@@ -70,3 +70,16 @@ p{
 .padding{
     padding:50px
 }
+.banner{
+    background-image: url(images/product-text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+}
+.background-image-dot{
+    background-image: url(images/dooted-qube.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 100%;
+    background-size: 10%;
+}
